@@ -1,0 +1,6 @@
+[
+    {
+        "type": "warning",
+        "message": "LANE_CHANGE_LEFT while ACC is ON. Check LANE_CHANGE + ACC interaction."
+    }
+]

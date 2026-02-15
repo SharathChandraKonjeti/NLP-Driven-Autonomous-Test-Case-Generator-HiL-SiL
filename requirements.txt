@@ -1,0 +1,17 @@
+pydantic 
+pyyaml 
+numpy 
+pandas 
+matplotlib 
+seaborn 
+scikit-learn 
+sentence-transformers 
+faiss-cpu 
+langchain 
+langchain-community 
+langchain-core 
+python-dotenv 
+rich 
+tqdm
+black
+isort

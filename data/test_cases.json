@@ -1,0 +1,63 @@
+{
+  "tests": [
+    { "id": "t01", "description": "Increase speed to 80." },
+    { "id": "t02", "description": "Accelerate to 100." },
+    { "id": "t03", "description": "Speed up to 120." },
+    { "id": "t04", "description": "Go to speed 90." },
+    { "id": "t05", "description": "Reach a speed of 110." },
+
+    { "id": "t06", "description": "Reduce speed to 60." },
+    { "id": "t07", "description": "Slow down to 40." },
+    { "id": "t08", "description": "Decrease speed to 30." },
+    { "id": "t09", "description": "Lower speed to 50." },
+    { "id": "t10", "description": "Bring speed down to 70." },
+
+    { "id": "t11", "description": "Accelerate to 100 and then reduce speed to 60." },
+    { "id": "t12", "description": "Increase speed to 90, then slow down to 40." },
+    { "id": "t13", "description": "Go to 120, after that decrease speed to 80." },
+    { "id": "t14", "description": "Speed up to 70 and then bring speed down to 30." },
+    { "id": "t15", "description": "Reach 100, then lower speed to 50." },
+
+    { "id": "t16", "description": "Enable ACC." },
+    { "id": "t17", "description": "Turn on adaptive cruise control." },
+    { "id": "t18", "description": "Accelerate to 80 with ACC on." },
+    { "id": "t19", "description": "Increase speed to 100 and enable ACC." },
+    { "id": "t20", "description": "Disable ACC." },
+
+    { "id": "t21", "description": "Turn off ACC and slow down to 40." },
+    { "id": "t22", "description": "Enable ACC and maintain speed at 90." },
+    { "id": "t23", "description": "Accelerate to 120, then turn on ACC." },
+    { "id": "t24", "description": "Turn off adaptive cruise control and reduce speed to 60." },
+    { "id": "t25", "description": "ACC active, increase speed to 110." },
+
+    { "id": "t26", "description": "Change to the left lane." },
+    { "id": "t27", "description": "Move to right lane." },
+    { "id": "t28", "description": "Accelerate to 80 and change to left lane." },
+    { "id": "t29", "description": "Reduce speed to 60 and move to the right lane." },
+    { "id": "t30", "description": "Speed up to 100 then shift to left lane." },
+
+    { "id": "t31", "description": "Slow down to 40 and change to right lane." },
+    { "id": "t32", "description": "Reach 90, then change to the left lane." },
+    { "id": "t33", "description": "Go to 70 and then move to right lane." },
+    { "id": "t34", "description": "Accelerate to 110, change to left lane, then reduce speed to 80." },
+    { "id": "t35", "description": "Increase speed to 120 and shift to right lane." },
+
+    { "id": "t36", "description": "Accelerate to 100, enable ACC, then reduce speed to 70 and change to the left lane." },
+    { "id": "t37", "description": "Increase speed to 120, move to right lane, then slow down to 80." },
+    { "id": "t38", "description": "Turn on ACC, go to 90, then turn off ACC and reduce speed to 50." },
+    { "id": "t39", "description": "Speed up to 110, change to left lane, then bring speed down to 60." },
+    { "id": "t40", "description": "Accelerate to 130, maintain speed, then slow down to 90 and move to right lane." },
+
+    { "id": "t41", "description": "Start from standstill and accelerate to 50." },
+    { "id": "t42", "description": "From rest, increase speed to 70." },
+    { "id": "t43", "description": "Accelerate to 90, then maintain speed at 90." },
+    { "id": "t44", "description": "Slow down to 30 for the curve, then accelerate to 80." },
+    { "id": "t45", "description": "Go to 100, hold speed, then reduce speed to 60." },
+
+    { "id": "t46", "description": "Accelerate to 140 for overtaking, then bring speed down to 100." },
+    { "id": "t47", "description": "Increase speed to 110 and then change to the left lane." },
+    { "id": "t48", "description": "Reduce speed to 40, then move to the right lane and accelerate to 70." },
+    { "id": "t49", "description": "Enable ACC, accelerate to 90, then disable ACC and slow down to 50." },
+    { "id": "t50", "description": "Speed up to 120, shift to left lane, enable ACC, then reduce speed to 80." }
+  ]
+}

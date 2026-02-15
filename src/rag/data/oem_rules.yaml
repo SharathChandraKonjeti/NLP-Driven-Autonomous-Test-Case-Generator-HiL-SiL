@@ -1,0 +1,46 @@
+rules:
+
+  - id: ACC_MIN_SPEED
+    text: ACC must not activate below 30 km/h unless stop-and-go mode is supported.
+
+  - id: ACC_BRAKE_OVERRIDE
+    text: ACC must disengage immediately when the brake pedal is pressed.
+
+  - id: ACC_STEERING_OVERRIDE
+    text: ACC must disengage when driver steering torque exceeds the OEM-defined threshold.
+
+  - id: ACC_MIN_GAP
+    text: ACC must maintain a minimum time gap of 1.2 seconds to the vehicle ahead.
+
+  - id: ACC_MAX_SPEED
+    text: ACC must not exceed the posted speed limit when map data is available.
+
+  - id: LANE_CHANGE_INDICATOR
+    text: Lane change requires indicator activation for at least 2 seconds before maneuver.
+
+  - id: LANE_CHANGE_CLEARANCE
+    text: Lane change must not occur if adjacent lane object distance is less than 20 meters.
+
+  - id: LANE_CHANGE_TIME_LIMIT
+    text: Lane change must complete within 5 seconds.
+
+  - id: SPEED_MAX_LIMIT
+    text: Vehicle speed must not exceed 180 km/h during automated testing.
+
+  - id: SPEED_ACCEL_LIMIT
+    text: Speed must not increase more than 20 km/h per second.
+
+  - id: SPEED_DECEL_LIMIT
+    text: Speed must not decrease more than 30 km/h per second unless braking.
+
+  - id: LKA_MAX_SPEED
+    text: Lane Keeping Assist must not operate above 150 km/h.
+
+  - id: AEB_TTC_THRESHOLD
+    text: AEB must trigger when time-to-collision falls below 1.2 seconds.
+
+  - id: FCW_TTC_THRESHOLD
+    text: Forward Collision Warning must trigger when time-to-collision falls below 2.0 seconds.
+
+  - id: SENSOR_DEPENDENCY
+    text: ACC and LKA must not operate if radar or camera sensors are unavailable.

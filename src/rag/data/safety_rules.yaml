@@ -1,0 +1,34 @@
+safety:
+
+  - id: SAFE_DISTANCE
+    text: Maintain a minimum 2-second headway from the vehicle ahead at all times.
+
+  - id: MAX_LATERAL_ACCEL
+    text: Do not exceed 0.4 g lateral acceleration during lane change maneuvers.
+
+  - id: MAX_BRAKE_DECEL
+    text: Do not exceed 0.6 g longitudinal deceleration except during emergency braking.
+
+  - id: BLIND_SPOT_CLEAR
+    text: Lane change must only occur when the blind spot is free of obstacles.
+
+  - id: NO_LANE_CHANGE_CURVES
+    text: Lane change is not allowed in curves with radius less than 300 meters.
+
+  - id: NO_LANE_CHANGE_TUNNEL
+    text: Lane change is not allowed inside tunnels.
+
+  - id: BRAKE_OVERRIDE
+    text: Brake pedal input must always override ACC and AEB.
+
+  - id: SENSOR_FAILURE_ABORT
+    text: Test must abort if any critical sensor (radar, camera, lidar) fails.
+
+  - id: GPS_ACCURACY
+    text: Test must abort if GPS accuracy drops below the required threshold.
+
+  - id: DRIVER_HANDS_ON
+    text: Driver hands must remain on the steering wheel unless Level 3 automation is active.
+
+  - id: TAKEOVER_REQUEST
+    text: Driver must respond to a takeover request within 5 seconds.

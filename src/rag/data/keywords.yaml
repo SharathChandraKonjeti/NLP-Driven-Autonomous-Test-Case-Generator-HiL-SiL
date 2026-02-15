@@ -1,0 +1,94 @@
+SET_SPEED:
+  description: Set the vehicle speed to a specific target value.
+  parameters:
+    - value: Target speed in km/h.
+
+SET_SPEED_RELATIVE:
+  description: Adjust speed by a relative amount, such as increasing or decreasing by a certain value.
+
+HOLD_SPEED:
+  description: Maintain the current vehicle speed without acceleration or braking.
+
+ACC_ON:
+  description: Enable Adaptive Cruise Control to maintain speed and distance automatically.
+
+ACC_OFF:
+  description: Disable Adaptive Cruise Control and return control to the driver.
+
+ACC_GAP_UP:
+  description: Increase the ACC time gap to the vehicle ahead.
+
+ACC_GAP_DOWN:
+  description: Decrease the ACC time gap to the vehicle ahead.
+
+LANE_CHANGE_LEFT:
+  description: Perform a safe lane change to the left.
+
+LANE_CHANGE_RIGHT:
+  description: Perform a safe lane change to the right.
+
+INDICATOR_LEFT:
+  description: Activate the left turn indicator.
+
+INDICATOR_RIGHT:
+  description: Activate the right turn indicator.
+
+APPLY_BRAKE:
+  description: Apply braking force to reduce speed or stop the vehicle.
+
+AEB_WARNING:
+  description: Trigger an Automatic Emergency Braking warning.
+
+AEB_BRAKE:
+  description: Apply emergency braking due to imminent collision.
+
+FCW_WARNING:
+  description: Trigger a Forward Collision Warning alert.
+
+LKA_ON:
+  description: Enable Lane Keeping Assist to maintain lane position.
+
+LKA_OFF:
+  description: Disable Lane Keeping Assist.
+
+STEER_LEFT:
+  description: Apply steering input to the left.
+
+STEER_RIGHT:
+  description: Apply steering input to the right.
+
+CENTER_LANE:
+  description: Center the vehicle within the current lane.
+
+ENGINE_ON:
+  description: Start the vehicle engine.
+
+ENGINE_OFF:
+  description: Turn off the vehicle engine.
+
+PARK:
+  description: Shift the vehicle into Park mode.
+
+DRIVE:
+  description: Shift the vehicle into Drive mode.
+
+REVERSE:
+  description: Shift the vehicle into Reverse mode.
+
+ENABLE_CAMERA:
+  description: Activate the camera sensor system.
+
+DISABLE_CAMERA:
+  description: Deactivate the camera sensor system.
+
+ENABLE_RADAR:
+  description: Activate the radar sensor system.
+
+DISABLE_RADAR:
+  description: Deactivate the radar sensor system.
+
+ENABLE_LIDAR:
+  description: Activate the lidar sensor system.
+
+DISABLE_LIDAR:
+  description: Deactivate the lidar sensor system.
